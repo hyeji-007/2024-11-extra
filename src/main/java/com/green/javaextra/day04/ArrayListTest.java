@@ -21,5 +21,12 @@ public class ArrayListTest {
         //System.out.println(list2.get(4));
         System.out.println("size: " + list2.size());
 
+        /*
+        List<Integer> 일 때만 remove(int index)로만 삭제 가능하다.
+        List<Integer>가 아닐때는 index와 data로도 삭제 가능하다.
+         */
+
+        System.out.println(list2.remove(2)); //<Integer>일 경우 방 번호로밖에 삭제 못함
+
     }
 }
